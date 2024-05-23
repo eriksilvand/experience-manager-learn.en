@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 6c63787c-e511-4764-9a03-2c85c394bcc0
 last-substantial-update: 2019-06-09
-duration: 44
+duration: 28
 ---
 # Ability to modify Data Source Configuration Settings{#ability-to-modify-data-source-configuration-settings}
 
@@ -22,4 +22,4 @@ The screenshots below show the data source configuration settings in AEM Forms 6
 
 ![64DataSource Configuration](assets/64release.gif)
 **Editable Data Source Configuration in AEM 6.5 and above**
-![65DataSource Configuration](assets/modifiabledatasource.jfif)
+![65DataSource Configuration](assets/modifiable_data_source.png)

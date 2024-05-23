@@ -1,6 +1,6 @@
 ---
 title: Prefill core component based adaptive form
-description: Learn how to prefill adaptive form with data 
+description: Learn how to prefill adaptive form with data
 feature: Adaptive Forms
 type: Documentation
 role: Developer
@@ -8,6 +8,8 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14675
+duration: 98
+exl-id: 1cd385b3-7e00-4f75-b728-1b47f7a8fb2a
 ---
 # Implement DataProvider interface
 

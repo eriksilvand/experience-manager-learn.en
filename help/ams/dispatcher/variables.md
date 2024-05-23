@@ -9,7 +9,7 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Article
 exl-id: 299b32c3-7922-4eee-aa3a-56039a654f70
-duration: 364
+duration: 260
 ---
 # Using and Understanding Variables
 
@@ -141,10 +141,9 @@ RUNMODE='sites'
 
 These aren't something you can change but are good to leverage in your configuration files
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Due to the fact that this file only gets included when the service starts up.  A restart of the service is required to pick up changes.  Meaning a reload isn't enough but a restart instead is needed
-</div>
+>[!NOTE]
+>
+>Due to the fact that this file only gets included when the service starts up.  A restart of the service is required to pick up changes.  Meaning a reload isn't enough but a restart instead is needed
 
 ### Variables Files (`.vars`)
 

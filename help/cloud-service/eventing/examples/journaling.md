@@ -7,15 +7,17 @@ topic: Development, Architecture, Content Management
 role: Architect, Developer
 level: Beginner
 doc-type: Tutorial
-duration: 0
-last-substantial-update: 2023-12-07
+duration: 280
+last-substantial-update: 2023-01-29
 jira: KT-14734
 thumbnail: KT-14734.jpeg
+exl-id: 33eb0757-f0ed-4c2d-b8b9-fa6648e87640
 ---
-
 # Journaling and AEM Events
 
 Learn how to retrieve the initial set of AEM Events from the journal and explore the details about each event.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427052?quality=12&learn=on)
 
 Journaling is a pull method to consume AEM Events, and a journal is an ordered list of events. Using Adobe I/O Events Journaling API, you can fetch the AEM Events from the journal and process them in your application. This approach allows you to manage events based on a specified cadence and efficiently process them in bulk. Refer to the [Journaling](https://developer.adobe.com/events/docs/guides/journaling_intro/) for in-depth insights, including essential considerations like retention periods, pagination, and more.
 
@@ -30,6 +32,10 @@ To complete this tutorial, you need:
 - AEM as a Cloud Service environment with [AEM Eventing enabled](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#enable-aem-events-on-your-aem-cloud-service-environment).
 
 - [Adobe Developer Console project configured for AEM Events](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#how-to-subscribe-to-aem-events-in-the-adobe-developer-console).
+
+>[!IMPORTANT]
+>
+>AEM as a Cloud Service Eventing is only available to registered users in pre-release mode. To enable AEM eventing on your AEM as a Cloud Service environment, contact [AEM-Eventing team](mailto:grp-aem-events@adobe.com).
 
 ## Access web application
 
@@ -77,4 +83,4 @@ To keep things simple, this hosted web application only fetches the first batch 
 
 - [Glitch webhook source code](https://glitch.com/edit/#!/indigo-speckle-antler) is available for reference. It is a simple React application that uses [Adobe React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) components to render the UI.
 
-- [Adobe I/O Events Journaling API](https://developer.adobe.com/events/docs/guides/api/journaling_api/) provides detailed information about the API like first, next, and last batch of events, pagination, and more. 
+- [Adobe I/O Events Journaling API](https://developer.adobe.com/events/docs/guides/api/journaling_api/) provides detailed information about the API like first, next, and last batch of events, pagination, and more.

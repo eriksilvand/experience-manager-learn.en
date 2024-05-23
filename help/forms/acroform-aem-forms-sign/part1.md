@@ -6,7 +6,7 @@ doc-type: Tutorial
 version: 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
-duration: 165
+duration: 144
 ---
 
 # Creating Acroform
@@ -22,7 +22,7 @@ Acroforms are forms created using Acrobat. You can create a new form from scratc
 
 >[!NOTE]
 >
->If you want to send the fillable acroform for signing using Acrobat Sign, Please name the fields accordingly. For example, you could name a field **Sig_es_:signer1:signature**. This is the syntax Acrobat Sign understands.
+>If you want to send the fillable acroform for signing using Acrobat Sign, Please name the fields accordingly. For example, you could name a field **`Sig_es_:signer1:signature`**. This is the syntax Acrobat Sign understands.
 
 >[!NOTE]
 >

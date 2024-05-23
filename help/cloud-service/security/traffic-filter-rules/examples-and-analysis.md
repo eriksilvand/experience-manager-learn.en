@@ -11,7 +11,7 @@ last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
 exl-id: 49becbcb-7965-4378-bb8e-b662fda716b7
-duration: 667
+duration: 532
 ---
 # Examples and result analysis of traffic filter rules including WAF rules
 
@@ -213,6 +213,8 @@ Also, the **Top 100 attacks by client IP, country, and user-agent** panels show 
 
 ![ELK Tool Dashboard DoS Top 100 Requests](./assets/elk-tool-dashboard-dos-top-100.png)
 
+For more information on how to prevent DoS and DDoS attacks, review the [Blocking DoS and DDoS attacks using traffic filter rules](../blocking-dos-attack-using-traffic-filter-rules.md) tutorial.
+
 ### WAF rules
 
 The traffic filter rule examples so far can be configured by all Sites and Forms customers.
@@ -347,3 +349,4 @@ Get familiar with recommended [best practices](./best-practices.md) to reduce th
 [Traffic Filter Rules Syntax](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html#rules-syntax)
 
 [CDN Log Format](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html#cdn-log-format)
+

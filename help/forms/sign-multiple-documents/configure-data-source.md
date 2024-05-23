@@ -9,7 +9,7 @@ version: 6.4,6.5
 jira: KT-6899
 thumbnail: 6899.jpg
 exl-id: 2e851ae5-6caa-42e3-8af2-090766a6f36a
-duration: 61
+duration: 39
 ---
 # Configure data source
 
@@ -29,9 +29,9 @@ Database has one table called formdata with the 3 columns as shown in the screen
 
 | Property Name| Value |
 | ------------------------|--------------------------------------- |
-| Datasource Name| SaveAndContinue |
-| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
-| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |
+| Datasource Name| `SaveAndContinue` |
+| JDBC Driver Class| `com.mysql.cj.jdbc.Driver` |
+| JDBC connection uri| `jdbc:mysql://localhost:3306/aemformstutorial` |
 
 ## Assets
 

@@ -9,7 +9,7 @@ jira: KT-8227
 thumbnail: 335476.jpeg
 last-substantial-update: 2022-09-16
 exl-id: a3a9bf59-e9a2-4322-ac93-9c12c70b9a75
-duration: 516
+duration: 505
 ---
 # OSGi Services
 
@@ -88,3 +88,5 @@ package com.adobe.aem.wknd.examples.core.adventures;
 
 import org.osgi.annotation.versioning.Version;
 ```
+
+Adding a `package-info.java` is required to ensure other OSGi bundles in AEM can resolve the OSGi service interface (or any Java class). If the `package-info.java` is missing, the Java package and its Java interfances or classes are not exported. Other OSGi bundles trying to import these Java interfaces or classes from this Java package, will error with the message __Cannot be resolved__ in AEM's OSGi Bundle console.

@@ -99,6 +99,12 @@ index: y
   + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
   + [Form Data Model with Salesforce](adaptive-forms/using-adaptive-forms-with-sales-force-integration-tutorial.md)
   + [Adding Items Dynamically to Choice Component](adaptive-forms/choice-group-items-adding-dynamically-article.md)
++ Fill a PDF form with ChatBot{#chatbot-and-aem-forms}
+  + [1 - Introduction](chatbot-and-aem-forms/introduction.md)
+  + [2 - Parse ChatBot data](chatbot-and-aem-forms/parse-chat-bot-data.md)
+  + [3 - Create PDF](chatbot-and-aem-forms/merge-data-with-template.md)
++ Core- Components based forms{#core-component-based-forms}
+  + [Access form data using GuideBridge API](core-components/submit-data-using-guidebridge-api.md)
 + Select and assemble DAM folder content{#select-dam-folder-content}
   + [1- Introduction](display-and-assemble-dam-folder-contents/introduction.md)
   + [2 - Populate choice group](display-and-assemble-dam-folder-contents/populating-choice-group-with-dam-folder-content.md)
@@ -125,6 +131,11 @@ index: y
   + [2 - Zip Form Attachments](zipping-form-attachments/custom-process-step.md)
   + [3 - Email Form Attachments](zipping-form-attachments/populating-list-of-documents.md)
   + [4 - Test the solution](zipping-form-attachments/test.md)
++ Prefilling form with data and attachments{#prefill-form-with-data-attachments}
+  + [1 - Introduction](prefill-form-with-data-attachments/introduction.md)
+  + [2 - Create custom submit](prefill-form-with-data-attachments/create-custom-submit.md)
+  + [3 - Create OSGi configuration](prefill-form-with-data-attachments/create-osgi-configuration.md)
+  + [4 - Create prefill service](prefill-form-with-data-attachments/create-prefill-service.md)
 + Storing and Retrieving Adaptive Form{#store-and-retrieve-af-with-2fa}
   + [1 - Introduction](store-and-retrieve-af-with-2fa/introduction.md)
   + [2 - Configure Data Source](store-and-retrieve-af-with-2fa/configure-data-source.md)
@@ -161,6 +172,7 @@ index: y
   + [Convert PDF Form into Adaptive Form](aem-forms-and-adobe-sign/convert-pdf-form-into-adaptive-form.md)
   + [Configure converted Adaptive Form](aem-forms-and-adobe-sign/configure-converted-adaptive-form.md)
   + [Using XDP templates with Acrobat Sign](aem-forms-and-adobe-sign/using-xdp-templates-with-adobe-sign.md)
+  + [Using Acrobat Sign helper methods](aem-forms-and-adobe-sign/send-documents-signing-using-sign-api.md)
 + Sign Multiple Forms{#sign-multiple-documents}
   + [1 - Introduction](sign-multiple-documents/introduction.md)
   + [2 - Configure data source](sign-multiple-documents/configure-data-source.md)
@@ -209,12 +221,13 @@ index: y
   + [Handle PDF Submission](offline-mobile-form-submission/part-two.md)
   + [Workflow to Review PDF](offline-mobile-form-submission/part-three.md)
   + [Deploy on your system](offline-mobile-form-submission/part-four.md)
-+ Querying Submitted Data{#querying-submitted-data}
-  + [Introduction](querying-submitted-data/introduction.md)
-  + [Creating Form based on JSON Schema](querying-submitted-data/part1.md)
-  + [Store the submitted data](querying-submitted-data/part2.md)
-  + [Store the JSON Schema](querying-submitted-data/part3.md)
-  + [Query the submitted data](querying-submitted-data/part4.md)
++ Querying Form Submissions{#query-form-submissions}
+  + [Introduction](query-form-submissions/introduction.md)
+  + [Create searchable fields](query-form-submissions/part1.md)
+  + [Create custom submit](query-form-submissions/part2.md)
+  + [Build query interface](query-form-submissions/part3.md)
+  + [Write prefill service](query-form-submissions/part4.md)
+  + [Deploy the sample](query-form-submissions/part5.md)
 + Listing Custom Asset Types in Forms Portal{#listing-custom-asset-types}
   + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
@@ -265,6 +278,7 @@ index: y
   + [ECMA script to generate pdf with fragments](document-services/using-fragments-in-output-service-watched-folder.md)
   + [Generating multiple pdf's from one data file](document-services/generate-multi-record-pdf.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
+  + [Generate PDF on Core Component based form submission](document-services/generate-pdf-from-core-component-form-submission.md)
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
   + [Generate Interactive DoR from Adaptive Form](document-services/generate-interactive-dor.md)
   + [Configure Reader Extensions Credential](document-services/configuring-reader-extension-osgi.md)
@@ -273,6 +287,16 @@ index: y
   + [Certify Documents](document-services/certifying-documents-aem-forms-tutorial.md)
   + [Assemble Form Attachments](document-services/assemble-form-attachments.md)
   + [Useful Utility Services](document-services/useful-utility-services.md)
++ Forms Designer{#forms-designer}
+  + [Design view](forms-designer/design-view.md)
+  + [Create your first form](forms-designer/create-simple-form.md)
+  + [Create form template](forms-designer/creating-form-template.md)
+  + [Scripting your form](forms-designer/first-script-designer.md)
+  + [XML data binding](forms-designer/xml-data-binding.md)
+  + [Database binding](forms-designer/binding-to-mysql-db.md)
+  + [Using scribble signature](forms-designer/scribble-signature-form.md)
+  + [Using digital signature](forms-designer/adding-dig-signature-field.md)
+  + [Reader extending form](forms-designer/reader-extending-j2ee.md)
 + Interactive Communications for Print Channel 
 {#ic-print-channel-tutorial}
   + [1 - Introduction](ic-print-channel-tutorial/introduction.md)

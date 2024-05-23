@@ -12,7 +12,7 @@ level: Beginner
 last-substantial-update: 2023-05-10
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: 7873e263-b05a-4170-87a9-59e8b7c65faa
-duration: 235
+duration: 160
 ---
 # Android App
 
@@ -46,7 +46,7 @@ The Android application is designed to connect to an __AEM Publish__ environment
     $ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
-1. Launch [Android Studio](https://developer.android.com/studio) and open the folder `android-app`
+1. Open [Android Studio](https://developer.android.com/studio) and open the folder `android-app`
 1. Modify the file `config.properties` at `app/src/main/assets/config.properties` and update `contentApi.endpoint` to match your target AEM environment:
     
     ```plain
@@ -59,8 +59,8 @@ The Android application is designed to connect to an __AEM Publish__ environment
 
     ```plain
     contentApi.endpoint=https://author-p123-e456.adobeaemcloud.com
-    contentApi.user=admin
-    contentApi.password=admin
+    contentApi.user=my-special-android-app-user
+    contentApi.password=password123
     ```
 
 1. Download an [Android Virtual Device](https://developer.android.com/studio/run/managing-avds) (minimum API 28).

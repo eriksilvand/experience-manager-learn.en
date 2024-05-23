@@ -11,7 +11,7 @@ thumbnail: KT-13309.jpg
 doc-type: article
 last-substantial-update: 2023-06-02
 exl-id: 70adb2c1-9e08-4a4b-b8f1-16bddd84c23d
-duration: 485
+duration: 307
 ---
 # Export Content Fragment to XML
 
@@ -46,6 +46,7 @@ The code shows how the Content Fragment's content can be obtained in the extensi
 `src/aem-ui-extension/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
+import React from "react";
 import { Text } from "@adobe/react-spectrum";
 import { register } from "@adobe/uix-guest";
 import { extensionId } from "./Constants";
@@ -56,7 +57,7 @@ function ExtensionRegistration() {
 
   const init = async () => {
     const guestConnection = await register({
-      id: extensionId,
+      id: extensionId, // This is the unique id of this extension (you can make this up as long as its unique) .. in this case its `editor-export-to-xml` pulled out into Constants.js.
       methods: {
         headerMenu: {
           getButtons() {
@@ -112,6 +113,7 @@ function ExtensionRegistration() {
 
   return <Text>IFrame for integration with Host (AEM)...</Text>;
 }
+
 
 /**
  * This function triggers a download of the content fragment export.

@@ -13,10 +13,11 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets Essentials" before-title="false"
 doc-type: Feature Video
 exl-id: c3961fdf-b8aa-410d-9561-520a248ea5b0
-duration: 333
+duration: 322
 ---
 # Configuring the integration
 
 Learn how to configure the Adobe Workfront and Assets Essentials integration.
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/336254?quality=12&learn=on)

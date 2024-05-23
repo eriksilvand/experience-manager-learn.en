@@ -11,7 +11,7 @@ thumbnail: 337960.jpeg
 last-substantial-update: 2022-10-03
 doc-type: Technical Video
 exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
-duration: 975
+duration: 937
 ---
 # Sitemaps
 
@@ -44,7 +44,7 @@ The screenshot below illustrates a similar configuration but for `http://wknd.lo
 
 ### Sitemap scheduler OSGi configuration
 
-Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](http://www.cronmaker.com/)) sitemaps are re/generated and cached in AEM. 
+Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](https://cron.help/)) sitemaps are re/generated and cached in AEM. 
 
 `ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.publish`
 
@@ -87,4 +87,4 @@ RewriteRule ^/(.*)$ /content/${CONTENT_FOLDER_NAME}/$1 [PT,L]
 + [Apache Sling Sitemap documentation](https://github.com/apache/sling-org-apache-sling-sitemap#readme)
 + [Sitemap.org Sitemap documentation](https://www.sitemaps.org/protocol.html)
 + [Sitemap.org Sitemap index file documentation](https://www.sitemaps.org/protocol.html#index)
-+ [Cronmaker](http://www.cronmaker.com/)
++ [Cron Helper](https://cron.help/)

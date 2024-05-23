@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 jira: KT-11603
 last-substantial-update: 2023-06-02
 exl-id: ef2290d9-ba40-429b-b10d-e82d6c1c20f6
-duration: 126
+duration: 85
 ---
 # Extension registration
 
@@ -52,7 +52,6 @@ function App(props) {
 Based on the AEM UI extension template selected when [initializing the App Builder app extension](./app-initialization.md), different extension points are supported.
 
 + [Content Fragments UI extension points](./content-fragments/overview.md#extension-points)
-
 
 ## Conditionally include extensions
 

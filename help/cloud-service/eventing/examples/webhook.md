@@ -7,15 +7,17 @@ topic: Development, Architecture, Content Management
 role: Architect, Developer
 level: Beginner
 doc-type: Tutorial
-duration: 0
-last-substantial-update: 2023-12-07
+duration: 358
+last-substantial-update: 2023-01-29
 jira: KT-14732
 thumbnail: KT-14732.jpeg
+exl-id: 00954d74-c4c7-4dac-8d23-7140c49ae31f
 ---
-
 # Webhooks and AEM Events
 
 Learn how to receive AEM events on a webhook and review the event details such as payload, headers, and metadata.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427051?quality=12&learn=on)
 
 In this example, utilizing an Adobe-provided _hosted webhook_ allows you to receive AEM events without the need to set up your own webhook. This Adobe-provided webhook is hosted on [Glitch](https://glitch.com/), a platform known for offering a web-based environment conducive to building and deploying web applications. However, the option to use your own webhook is also available if preferred.
 
@@ -26,6 +28,10 @@ To complete this tutorial, you need:
 - AEM as a Cloud Service environment with [AEM Eventing enabled](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#enable-aem-events-on-your-aem-cloud-service-environment).
 
 - [Adobe Developer Console project configured for AEM Events](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#how-to-subscribe-to-aem-events-in-the-adobe-developer-console).
+
+>[!IMPORTANT]
+>
+>AEM as a Cloud Service Eventing is only available to registered users in pre-release mode. To enable AEM eventing on your AEM as a Cloud Service environment, contact [AEM-Eventing team](mailto:grp-aem-events@adobe.com).
 
 ## Access webhook
 

@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 jira: KT-10208
 exl-id: 9053ee29-436a-439a-b592-c3fef9852ea4
-duration: 46
+duration: 28
 ---
 # Deploy the sample assets on your server
 
@@ -24,9 +24,9 @@ Please follow the below instructions to get this functionality working on your A
 
 |Property Name|Property Value   |
 |---|---|
-|Datasource Name|SaveAndContinue|
-|JDBC driver class|com.mysql.cj.jdbc.Driver|
-|JDBC Connection URL|jdbc:mysql://localhost:3306/aemformstutorial?autoReconnect=true&useSSL=false&characterEncoding=utf8&useUnicode=true|
+|Datasource Name|`SaveAndContinue`|
+|JDBC driver class|`com.mysql.cj.jdbc.Driver`|
+|JDBC Connection URL|`jdbc:mysql://localhost:3306/aemformstutorial?autoReconnect=true&useSSL=false&characterEncoding=utf8&useUnicode=true`|
 
 * [Deploy the icdrafts bundle](assets/icdrafts.icdrafts.core-1.0-SNAPSHOT.jar)
 * Make sure you _Enable Save Using CCRDocumentInstanceService_ in OSGI config as shown below

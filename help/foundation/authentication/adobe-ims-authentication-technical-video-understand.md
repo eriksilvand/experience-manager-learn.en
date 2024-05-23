@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 52dd8a3f-6461-4acb-87ca-5dd9567d15a6
 last-substantial-update: 2022-10-01
 thumbnail: KT-781.jpg
-duration: 441
+duration: 405
 ---
 # Understanding Adobe IMS authentication with AEM on Adobe Managed Services{#understanding-adobe-ims-authentication-with-aem-on-adobe-managed-services}
 
@@ -34,11 +34,7 @@ Adobe Experience Manager introduces Admin Console support for AEM instances and 
 
 Applying permissions and access at the user level should be avoided in both Admin Console and in Adobe Experience Manager.
 
-In, Admin Console users should be granted access via User Groups at the Product Context level. User groups are typically best expressed by logical role within the organization to promote the groups' reusability across Adobe Experience Cloud products.
-
->[!NOTE]
->
-> If using AEM as a Cloud Service, assign Admin Console users directly to Product Profiles. Transitive permissions between Admin Console users to Product Profiles via Admin Console user groups is not supported for AEM as a Cloud Service.
+In Admin Console, users should be granted access via User Groups at the Product Context level. User groups are typically best expressed by logical role within the organization to promote the groups' reusability across Adobe Experience Cloud products.
 
 ### Applying permissions in Adobe Experience Manager
 

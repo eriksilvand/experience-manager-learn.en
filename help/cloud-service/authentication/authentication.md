@@ -10,7 +10,7 @@ jira: KT-10436
 thumbnail: KT-10436.png
 last-substantial-update: 2022-10-14
 exl-id: 4dba6c09-2949-4153-a9bc-d660a740f8f7
-duration: 58
+duration: 28
 ---
 # AEM as a Cloud Service authentication
 
@@ -24,6 +24,7 @@ AEM as a Cloud Service supports multiple of authentication options and varies by
 | [Single-sign On (SSO)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#integration-with-an-idp)  | &#10008;  | &#10004;    |
 | [OAuth](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#integration-with-an-idp)                 | &#10008;  | &#10004;    |
 | [Token authentication](../../headless-tutorial/authentication/overview.md) |  &#10004;  | &#10004;    |
+| Basic authentication | &#10008;  | &#10008;    |
 
 ## Authentication options
 

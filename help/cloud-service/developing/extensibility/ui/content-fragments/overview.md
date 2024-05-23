@@ -11,7 +11,7 @@ jira: KT-11603
 thumbnail: KT-11603.png
 last-substantial-update: 2023-06-02
 exl-id: 9164423b-a609-4bc5-9777-112d229ae748
-duration: 397
+duration: 126
 ---
 # AEM Content Fragments extensibility
 
@@ -323,6 +323,27 @@ Welcome to a collection of AEM UI extensibility code examples! This resource is 
           <p class="headline is-size-6 has-text-weight-bold"><a href="./examples/editor-rte-badges.md" title="Rich Text Editor Badge">Rich Text Editor Badge</a></p>
           <p class="is-size-6">Add badges to Rich Text Editor in the Content Fragment Editor.</p>
           <a href="./examples/editor-rte-badges.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
+            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the example</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Custom fields">
+    <div class="card" style="height: 100%">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <a href="./examples/editor-custom-field.md" title="Custom fields" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3427585?format=jpeg" alt="Custom fields">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small">
+        <div class="content">
+          <p class="headline is-size-6 has-text-weight-bold"><a href="./examples/editor-custom-field.md" title="Custom fields">Custom fields</a></p>
+          <p class="is-size-6">Create custom Content Fragment fields.</p>
+          <a href="./examples/editor-custom-field.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
             <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the example</span>
           </a>
         </div>

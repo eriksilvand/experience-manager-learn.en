@@ -9,7 +9,7 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Article
 exl-id: 7fe1b4a5-6813-4ece-b3da-40af575ea0ed
-duration: 327
+duration: 229
 ---
 # Common Logs
 
@@ -53,10 +53,9 @@ Doing either of the suggested methods would get rid of that error message from t
 
 ## Filter Rejects
 
-
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-These entries don't always show up even if rejections are happening if the log level is set too low. Set it to Info or debug to assure you can see if the filters are rejecting the requests.
-</div>
+>[!NOTE]
+>
+>These entries don't always show up even if rejections are happening if the log level is set too low. Set it to Info or debug to assure you can see if the filters are rejecting the requests.
 
 Sample Log entry:
 
@@ -70,10 +69,9 @@ or:
 Fri Jul 20 22:16:55 2018 I pid 128803 "GET /system/console/" ! - 8ms publishfarm/-
 ```
 
-<div style="color: #000;border-left: 6px solid red;background-color:#ddffff;"><b>Caution:</b>
-
-Understand that the Dispatcher's rules were set to filter out that request. In this case the page attempted to be visited was rejected on purpose and we wouldn't want to do anything with this.
-</div>
+>[!CAUTION]
+>
+>Understand that the Dispatcher's rules were set to filter out that request. In this case the page attempted to be visited was rejected on purpose and we wouldn't want to do anything with this.
 
 If your log looks like this entry:
 
@@ -126,13 +124,13 @@ Sample Log entry:
 Fri Jul 20 23:00:19 2018 I pid 16004 (tid 140134145820416) Current cache hit ratio: 87.94 %
 ```
 
-This means your fetching from render level vs from cache is measured. You want to hit 80+ percent from cache, and you should follow the help [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17458.html%3Flang%3Den):
+This means your fetching from render level vs from cache is measured. You want to hit 80+ percent from cache, and you should follow the help [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17458.html):
 
 To get this number as high as possible.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-Even if you have your cache settings in the farm file to cache everything you might be flushing too often or too agressively that can cause a lower percentage cache hit ratio to occur
-</div>
+>[!NOTE]
+>
+>Even if you have your cache settings in the farm file to cache everything you might be flushing too often or too agressively that can cause a lower percentage cache hit ratio to occur
 
 ## Missing Directory
 
@@ -165,7 +163,7 @@ Thu Sep 27 17:35:11 2018 W pid 18936 Unable to fetch vanity URLs from 10.43.0.42
 
 This error occurs when you've configured your Dispatcher to use the dynamic auto-filter allow vanity URLs, but not finished the setup by installing the package on the AEM renderer.
 
-To fix this please install the vanity url feature pack on the AEM instance and allow it to be ready by the anonymous user. Details [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17463.html%3Flang%3Den)
+To fix this please install the vanity url feature pack on the AEM instance and allow it to be ready by the anonymous user. Details [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17463.html)
 
 A working vanity URL set up looks like this:
 

@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: d851d315-ed0e-46b8-bcd8-417e1e58c0c4
-duration: 355
+duration: 260
 ---
 # Troubleshoot Asset Compute extensibility
 
@@ -31,7 +31,7 @@ The following is an index of common issues and errors, along with the resolution
 
 ### Console.json file missing from Asset Compute project{#missing-console-json}
 
-+ __Error:__ Error: Missing required files at validate (.../node_modules/@adobe/asset-compute-client/lib/integrationConfiguration.js:XX:YY) at async setupAssetCompute (.../node_modules/@adobe/asset-compute-devtool/src/assetComputeDevTool.js:XX:YY)
++ __Error:__ Error: Missing required files at validate (`.../node_modules/@adobe/asset-compute-client/lib/integrationConfiguration.js:XX:YY`) at async setupAssetCompute (`.../node_modules/@adobe/asset-compute-devtool/src/assetComputeDevTool.js:XX:YY`)
 + __Cause:__ The `console.json` file is missing from the root of the Asset Compute project
 + __Resolution:__ Download a new `console.json` form your Adobe I/O project
   1. In console.adobe.io, open the Adobe I/O project the Asset Compute project is configured to use

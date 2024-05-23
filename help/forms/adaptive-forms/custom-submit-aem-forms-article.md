@@ -8,11 +8,16 @@ role: Developer
 level: Experienced
 exl-id: 64b586a6-e9ef-4a3d-8528-55646ab03cc4
 last-substantial-update: 2021-04-09
-duration: 74
+duration: 51
 ---
 # Writing a Custom Submit in AEM Forms {#writing-a-custom-submit-in-aem-forms}
 
 Quick and easy way to create your own custom submit action for Adaptive Form
+
+>[!NOTE]
+>The code in this article does not work with core components based adaptive form.
+>[The equivalent article for core component based adaptive form is available here](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/custom-submit-headless-forms/custom-submit-service.html?lang=en)
+
 
 This article will walk you through the steps needed to create a custom submit action for handling Adaptive Forms submission.
 

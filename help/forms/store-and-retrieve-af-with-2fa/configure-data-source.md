@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: a87ff428-15f7-43c9-ad03-707eab6216a9
-duration: 95
+duration: 64
 ---
 # Configure Data Source
 
@@ -26,9 +26,9 @@ Then, set the Sling Connection Pooled DataSource properties specific to your dat
 
 | Property Name       | Property Value                                                                     |   |
 |---------------------|------------------------------------------------------------------------------------|---|
-| Datasource name     | StoreAndRetrieveAfData                                                             |   |
-| JDBC drive class    | jdbc:mysql://localhost:3306/aemformstutorial                                       |   |
-| JDBC connection URI | jdbc:mysql://localhost:3306/aemformstutorial?serverTimezone=UTC&autoReconnect=true |   |
+| Datasource name     | `StoreAndRetrieveAfData`                                                             |   |
+| JDBC drive class    | `jdbc:mysql://localhost:3306/aemformstutorial`                                       |   |
+| JDBC connection URI | `jdbc:mysql://localhost:3306/aemformstutorial?serverTimezone=UTC&autoReconnect=true` |   |
 |                     |                                                                                    |   |
 
 

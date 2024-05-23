@@ -9,7 +9,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 1550e6a7-04b5-4a40-9d7b-88074283402f
-duration: 167
+duration: 112
 ---
 # Personalization using Visual Experience Composer
 
@@ -34,7 +34,7 @@ For this exercise, the following users need to be involved and to perform some t
 
 * **AEM**
   * [AEM publish instance](./implementation.md#getting-aem) running on 4503
-  * [AEM integrated with Adobe Target using Adobe Experience Platform Launch](./using-launch-adobe-io.md#aem-target-using-launch-by-adobe)
+  * [AEM integrated with Adobe Target using tags](./using-launch-adobe-io.md#aem-target-using-launch-by-adobe)
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - `https://<yourcompany>.experiencecloud.adobe.com`
   * Experience Cloud provisioned with [Adobe Target](https://experiencecloud.adobe.com)

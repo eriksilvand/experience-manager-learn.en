@@ -11,14 +11,9 @@ thumbnail: 5332-collect-data-analytics.jpg
 badgeIntegration: label="Integration" type="positive"
 doc-type: Tutorial
 exl-id: 33f2fd25-8696-42fd-b496-dd21b88397b2
-duration: 694
+duration: 490
 ---
 # Integrate AEM Sites and Adobe Analytics
-
->[!NOTE]
->
->Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Adobe Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) for a consolidated reference of the terminology changes.
-
 
 Learn how to integrate AEM Sites and Adobe Analytics with Adobe Analytics tags extension, using the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Tags in Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) and the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html) are used to create rules to send page data to Adobe Analytics.
 

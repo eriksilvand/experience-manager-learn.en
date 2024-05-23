@@ -30,6 +30,20 @@ version: 6.4, 6.5, Cloud Service
     + [Image alt text](./document-authoring/how-to/image-alt-text.md)
     + [Prevent search engine indexing](./document-authoring/how-to/no-index.md)
     + [Responsive navigation](document-authoring/how-to/responsive-navigation.md)
+    + Generate Variations{#generate-variations}
+      + [Overview](./document-authoring/how-to/generate-variations/overview.md)
+      + [Configure Sidekick](./document-authoring/how-to/generate-variations/configure-sidekick.md)
+      + [Prompt templates](./document-authoring/how-to/generate-variations/prompt-templates.md)
+      + [Custom prompt templates](./document-authoring/how-to/generate-variations/custom-prompt-templates.md)
+      + [Save custom prompt templates](./document-authoring/how-to/generate-variations/save-custom-prompt-template.md)
+      + [Adobe Target audiences](./document-authoring/how-to/generate-variations/using-target-audiences.md)
+      + [CSV file audiences](./document-authoring/how-to/generate-variations/using-csv-file-audiences.md)
+      + [Adobe Firefly](./document-authoring/how-to/generate-variations/using-adobe-firefly-for-images.md)
+      + [Actions](./document-authoring/how-to/generate-variations/actions.md)
+      + [Trust and Privacy](./document-authoring/how-to/generate-variations/trust-privacy.md)
+    + [Experimentation framework](./document-authoring/how-to/experimentation-framework.md)
+    + [Setup experimentation framework](./document-authoring/how-to/setup-experimentation-framework.md)
+    + [Metadata for experimentation](./document-authoring/how-to/experimentation-add-metadata.md)
 + Page Authoring {#page-authoring}
   + [Authoring](page-authoring/aem-sites-authoring-overview.md)
   + [Navigation](page-authoring/basic-handling-sites-feature-video-use.md)
@@ -50,6 +64,8 @@ version: 6.4, 6.5, Cloud Service
   + [Launches](page-authoring/launches.md)
   + Learn From Your Peers {#expert-advice}
     + [Site Hierarchy Tips](page-authoring/expert-advice/site-hierarchy.md)
++ Generative AI {#generative-ai}
+  + [Generate Variations](./generative-ai/generate-variations.md)
 + Content Fragments {#content-fragments}
   + [Content Fragments console](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html){target=_blank}
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
@@ -129,12 +145,12 @@ version: 6.4, 6.5, Cloud Service
     + [Generate FPIDs](integrations/platform/fpid.md)
     + [Web SDK](integrations/platform/web-sdk.md)
     + [Analytics using Platform Web SDK](integrations/platform/analytics-using-web-sdk.md)
-  + Experience Platform Data Collection Tags (Launch) {#experience-platform-data-collection-tags}
+  + Tags in Adobe Experience Platform {#experience-platform-data-collection-tags}
     + [Overview](integrations/experience-platform/data-collection/tags/overview.md)
     + [Create a Tag Property](integrations/experience-platform/data-collection/tags/create-tag-property.md)
     + [Connect AEM and Tag Property using IMS](integrations/experience-platform/data-collection/tags/connect-aem-tag-property-using-ims.md)
-    + [Create AEM Launch Cloud Service](integrations/experience-platform/data-collection/tags/create-aem-launch-cloud-service.md)
-    + [Debugging a Tags (Launch) implementation](integrations/experience-platform/data-collection/tags/debug-tags-implementation.md)
+    + [Create AEM Tags Cloud Service](integrations/experience-platform/data-collection/tags/create-aem-launch-cloud-service.md)
+    + [Debugging a Tags implementation](integrations/experience-platform/data-collection/tags/debug-tags-implementation.md)
   + Adobe Client Data Layer {#adobe-client-data-layer}
     + [Using the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-overview.md)
     + [Customize the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-customize.md)
@@ -144,7 +160,7 @@ version: 6.4, 6.5, Cloud Service
     + [Analyze data with Analysis Workspace](integrations/analytics/create-analytics-workspace.md)
   + Adobe Target {#target}
     + [Overview](integrations/adobe-target/overview.md)
-    + [Add Target extension to Launch Property](integrations/adobe-target/add-target-launch-extension.md)
+    + [Add Target extension to Tags Property](integrations/adobe-target/add-target-launch-extension.md)
     + [Load and fire a Target call](integrations/adobe-target/load-and-fire-target.md)
     + [Create Adobe Target Cloud Service account](integrations/adobe-target/setup-aem-target-cloud-service.md)
     + [Export Experience Fragments to Adobe Target](integrations/adobe-target/export-experience-fragment-target.md)

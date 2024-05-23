@@ -9,7 +9,7 @@ level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 6b44e6b2-15f7-45b2-8d21-d47f122c809d
-duration: 95
+duration: 68
 ---
 # Creating Adaptive Form using Form Data Model
 
@@ -27,7 +27,7 @@ The user enters the Lead Id  and on tabbing out the Marketo service to get the l
 
 The following screenshot explains the rule editor settings
 
-![ruleeditor](assets/ruleeditor.jfif)
+![ruleeditor](assets/ruleeditor.png)
 
 ## Debugging
 

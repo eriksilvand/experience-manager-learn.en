@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: dccca658-3373-4de2-8589-21ccba2b7ba6
-duration: 56
+duration: 36
 ---
 # Configure Data Source
 
@@ -28,6 +28,6 @@ The sql file to create the schema can be [downloaded from here](assets/form-data
 
 | Property Name| Value |
 | ------------------------|---------------------------------------|
-| Datasource Name| SaveAndContinue |
-| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
-| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |
+| Datasource Name| `SaveAndContinue` |
+| JDBC Driver Class| `com.mysql.cj.jdbc.Driver` |
+| JDBC connection uri| `jdbc:mysql://localhost:3306/aemformstutorial` |

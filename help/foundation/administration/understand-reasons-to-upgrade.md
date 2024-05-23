@@ -8,7 +8,7 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner
 doc-type: Article
 exl-id: bf4030b0-67c4-4b00-af95-f63e6f79e995
-duration: 820
+duration: 538
 ---
 # Understanding Reasons to Upgrade
 
@@ -617,7 +617,7 @@ Below is a matrix of key Sites features offered by AEM. Some of these features w
             <td>✔</td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/using/aem_launch_adobeio_integration.html" target="_blank">Adobe Launch Integration</a>:</strong>
+            <td><strong><a href="https://helpx.adobe.com/experience-manager/using/aem_launch_adobeio_integration.html" target="_blank">Tags in Adobe Experience Platform Integration</a>:</strong>
             Integrate with Adobe's next-generation tag management cloud service.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -711,7 +711,7 @@ Below is a matrix of key Assets features offered by AEM. Some of these features 
             <td>✔<sup>+</sup></td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/task-content.html" target="_blank">Task</a> and <a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/projects-with-workflows.html" target="_blank">Workflow</a> Management:</strong>
+            <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/task-content.html" target="_blank">Task</a> and Workflow Management:</strong>
             Pre-built workflows and tasks for review and approval of digital assets leveraging AEM Projects.</td>
             <td>&nbsp;</td>
             <td>✔</td>

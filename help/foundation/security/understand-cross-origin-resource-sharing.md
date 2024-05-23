@@ -9,7 +9,7 @@ topic: Security
 role: Developer
 level: Intermediate
 exl-id: 6009d9cf-8aeb-4092-9e8c-e2e6eec46435
-duration: 336
+duration: 240
 ---
 # Understand Cross-Origin Resource Sharing ([!DNL CORS])
 
@@ -120,7 +120,7 @@ Site 1 is a basic, anonymously accessible, read-only scenario where content is c
     "X-Requested-With",
     "Content-Type",
     "Access-Control-Request-Method",
-    "Access-Control-Request-Headers",
+    "Access-Control-Request-Headers"
   ]
 }
 ```

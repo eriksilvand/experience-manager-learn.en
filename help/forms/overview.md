@@ -5,26 +5,12 @@ topic: Development
 role: Developer
 sub-product: Experience Manager Forms
 exl-id: c1972937-56c5-47af-9232-f31bdf69dfbe
-duration: 98
+duration: 36
 ---
 # AEM Forms tutorials and videos {#overview}
 
 Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manage, publish, and update complex digital forms while integrating with back-end processes, business rules, and data. This user guide contains videos and tutorials on the many features and capabilities of AEM Forms
 
-<div id="whats-new-section">
-
-## What's new
-
-* **[Handling Error Messages in Invoke Form Data Model Service Step](./adaptive-forms/handling-error-messages-in-invoke-fdm-step.md)**
-    *A variable in a workflow model is a way to store a value based on its data type*
-
-* **[Multi-Series Charts in Interactive Communication Documents(Video)](./interactive-communications/multiseriescharts.md)**
-    *Plot more than one series in the same chart. The multiple series charts are typically used in association with Line, Bar, Column chart type.*
-
-* **[Creating reusable workflow models](./adaptive-forms/re-usable-aem-forms-workflow-models-article.md)**
-    *Create workflow models not tied to a specific form*
-
-</div>
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -82,8 +68,6 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 </table>
 
 </div>
-
-
 
 
 ## Additional resources

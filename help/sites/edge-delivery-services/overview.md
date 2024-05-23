@@ -1,22 +1,24 @@
 ---
 title: Edge Delivery Services videos
-description: Learn how to make web sites fast with Edge Delivery.
+description: Learn how to make web sites fast with Edge Delivery Services.
 version: Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer
 level: Beginner
-jira: KT-14643
+jira: KT-14643, KT-15202
 doc-type: Catalog
-duration: 30
-last-substantial-update: 2023-05-12
+duration: 660
+last-substantial-update: 2024-03-20
 exl-id: 4f08bc07-0c9c-42fc-af42-3d51af9f37c4
 ---
 # Edge Delivery Services videos
 
-Learn how to make web sites fast with Edge Delivery
+Learn how to make web sites fast with Edge Delivery Services.
 
-Review the [documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/overview.html) for complete details of Edge Delivery and its capabilities.
+>[!VIDEO](https://video.tv.adobe.com/v/3427989/?learn=on)
+
+Review the [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview) for complete details of Edge Delivery Services and its capabilities.
 
 ## Getting started with Edge Delivery Services
 

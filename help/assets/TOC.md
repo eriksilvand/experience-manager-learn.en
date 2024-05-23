@@ -33,6 +33,7 @@ team: TM
   + [Relate and Unrelate](./authoring/relate-unrelate.md)
 
 + Collaboration{#collaboration}
+  + [Watch](./collaboration/watch.md)
   + [Timeline and Inbox](./collaboration/timeline-and-inbox.md)
   + [Comments and Annotations](./collaboration/comments-and-annotations.md)
   + [Check in and Check out](./collaboration/check-in-and-check-out.md)
@@ -40,7 +41,9 @@ team: TM
   + [Review Task](./collaboration/review-task.md)
 
 + Search and Discovery{#search-and-discovery}
-  + [Search](./search-and-discovery/search.md)             
+  + [Search](./search-and-discovery/search.md)           
+  + [Contextual Search](./search-and-discovery/contextual-search.md)  
+  + [Adobe Firefly integration](./search-and-discovery/adobe-firefly.md)
   + [Collections](./search-and-discovery/collections.md) 
   + [Search Boost](./search-and-discovery/search-boost.md)
   + [Find Similar Images](./search-and-discovery/find-similar-images.md)
@@ -48,11 +51,11 @@ team: TM
 + Advanced Capabilities{#advanced}
   + [3D Assets](./advanced/3d-assets.md) 
   + [Annotations PDF Output](./advanced/customizing-annotations-pdf-output.md)
-  + [Asset Insights](./advanced/asset-insights-launch-tutorial.md)
   + [Assets Reports](./advanced/asset-reports.md)
   + [Blocked Tags](./advanced/blocked-tags.md)
   + [Extract Archive](./advanced/extract-archive.md)
   + [Permissions (CUGs)](./advanced/closed-user-groups.md)
+  + [Metadata-Driven Permissions](./advanced/metadata-driven-permissions.md)
   + [Watermarks](./advanced/watermarks.md)
 
 + Advanced Metadata Management{#metadata}
@@ -67,6 +70,7 @@ team: TM
 
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
+  + [Export Assets](./sharing/export.md)
   + [Publish Assets](./sharing/publish.md)
   
   + Brand Portal{#brand-portal}
@@ -83,8 +87,8 @@ team: TM
   + [Connected Assets](./sharing/connected-assets.md)
 
 + Creative Workflows{#creative-workflows}
-  + [Adobe Express](./creative-workflows/adobe-express.md)
-  + [Adobe Express AEM Assets add-on](./creative-workflows/adobe-express-aem-assets-add-on.md)
+  + [Adobe Express integration](./creative-workflows/adobe-express.md)
+  + [Adobe Express and AEM Assets](./creative-workflows/adobe-express-aem-assets.md)
   + [AEM Desktop App](./creative-workflows/aem-desktop-app.md)
   + [Adobe Asset Link](./creative-workflows/adobe-asset-link.md)
   + [Adobe Stock](./creative-workflows/adobe-stock.md)
@@ -116,11 +120,12 @@ team: TM
     + [Image Sharpening](dynamic-media/dynamic-media-image-sharpening-feature-video-use.md)
     + [Color Management](dynamic-media/dynamic-media-color-management-technical-video-setup.md) 
   + Video {#video}
-    + [Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
-    + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
     + [360 Video](dynamic-media/dynamic-media-360-video-custom-thumbnail-feature-video-use.md)
     + [Custom Video Thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
+    + [DASH adaptive streaming](dynamic-media/dynamic-media-dash.md)
     + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
+    + [Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
+    + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
   + Viewers {#viewers} 
     + [Viewers](dynamic-media/dynamic-media-viewer-feature-video-understand.md)
     + [Panoramic and Vertical Image Viewers](dynamic-media/panorama-vertical-image-viewer-feature-video-use.md)

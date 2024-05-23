@@ -9,9 +9,9 @@ level: Beginner
 jira: KT-11604
 thumbnail: KT-11604.png
 doc-type: article
-last-substantial-update: 2022-12-09
+last-substantial-update: 2024-01-26
 exl-id: fbfb5c10-95f8-4875-88dd-9a941d7a16fd
-duration: 1550
+duration: 1362
 ---
 # Bulk property update example extension
 
@@ -86,53 +86,70 @@ There are two logical sets of routes:
 `ExtensionRegistration.js`, mapped to the `index.html` route, is the entry point for the AEM extension and defines:
 
 1. The location of the extension button appears in the AEM authoring experience (`actionBar` or `headerMenu`)
-1. The extension button's definition in `getButton()` function
+1. The extension button's definition in `getButtons()` function
 1. The click handler for the button, in the `onClick()` function
 
 + `src/aem-cf-console-admin-1/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
+import React from "react";
+import { generatePath } from "react-router";
+import { Text } from "@adobe/react-spectrum";
+import { register } from "@adobe/uix-guest";
+import { extensionId } from "./Constants";
+
 function ExtensionRegistration() {
   const init = async () => {
     const guestConnection = await register({
-      id: extensionId,
+      id: extensionId, // Some unique ID for the extension used to facilitate communication between the extension and Content Fragment Console
       methods: {
         // Configure your Action Bar button here
         actionBar: {
-          getButton() {
-            return {
-              'id': 'bulk-property-update',     // Unique ID for the button
-              'label': 'Bulk property update',  // Button label 
-              'icon': 'Edit'                    // Button icon; get name from: https://spectrum.adobe.com/page/icons/ (Remove spaces, keep uppercase)
-            }
-          },
-
-          // Click handler for the extension button
-          onClick(selections) {
-            // Collect the selected content fragment paths 
-            const selectionIds = selections.map(selection => selection.id);
-
-            // Create a URL that maps to the 
-            const modalURL = "/index.html#" + generatePath(
-              "/content-fragment/:selection/bulk-property-update",
+          getButtons() {
+            return [
               {
-                // Set the :selection React route parameter to an encoded, delimited list of paths of the selected content fragments
-                selection: encodeURIComponent(selectionIds.join('|'))
-              }
-            );
+                id: "examples.action-bar.bulk-property-update", // Unique ID for the button
+                label: "Bulk property update", // Button label
+                icon: "OpenIn", // Button icon; get name from: https://spectrum.adobe.com/page/icons/ (Remove spaces, keep uppercase)
+                // Click handler for the extension button
+                onClick(selections) {
+                  // Collect the selected content fragment paths
+                  const selectionIds = selections.map(
+                    (selection) => selection.id
+                  );
 
-            // Open the route in the extension modal using the constructed URL
-            guestConnection.host.modal.showUrl({
-              title: "Bulk property update",
-              url: modalURL
-            })
-          }
+                  // Create a URL that maps to the
+                  const modalURL =
+                    "/index.html#" +
+                    generatePath(
+                      "/content-fragment/:selection/bulk-property-update",
+                      {
+                        // Set the :selection React route parameter to an encoded, delimited list of paths of the selected content fragments
+                        selection: encodeURIComponent(selectionIds.join("|")),
+                      }
+                    );
+
+                  // Open the route in the extension modal using the constructed URL
+                  guestConnection.host.modal.showUrl({
+                    // The modal title
+                    title: "Bulk property update",
+                    url: modalURL,
+                  });
+                },
+              },
+            ];
+          },
         },
+      },
+    });
+  };
 
-      }
-    })
-  }
-  init().catch(console.error)
+  init().catch(console.error);
+
+  return <Text>IFrame for integration with Host (AEM)...</Text>;
+}
+
+export default ExtensionRegistration;
 ```
 
 ### Modal
@@ -207,6 +224,7 @@ export default function BulkPropertyUpdateModal() {
   // Asynchronously attach the extension to AEM, we must wait or the guestConnection to be set before doing anything in the modal
   useEffect(() => {
     (async () => {
+       // extensionId is the unique id of this extension (you can make this up as long as its unique) .. in this case its `bulk-property-update` pulled out into Constants.js as it is also referenced in ExtensionRegistration.js
       const guestConnection = await attach({ id: extensionId })
       setGuestConnection(guestConnection);
     })()

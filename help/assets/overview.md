@@ -16,13 +16,13 @@ Adobe Experience Manager (AEM) Assets is a digital asset management tool on AEM 
 >id="aemcloud_assets_overview"
 >title="AEM Assets"
 >abstract="Learn how to quickly find and edit the assets you need."
->additional-url="https://video.tv.adobe.com/v/336196" text="AEM Assets walk-through"
+>additional-url="https://video.tv.adobe.com/v/3427944" text="AEM Assets walk-through"
 
 ## AEM Assets walk-through
 
-Learn what AEM Assets is and how it might be used to achieve your organization's business goals.
+Learn what AEM Assets is and how can be used to achieve your organization's business goals.
 
->[!VIDEO](https://video.tv.adobe.com/v/336196?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427944?learn=on)
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -50,16 +50,16 @@ Learn what AEM Assets is and how it might be used to achieve your organization's
    </p>
 </td>
 <td>
-   <a href="./advanced/asset-insights-launch-tutorial.md">
-   <img alt="AEM Assets Insights" src="./assets/overview/asset-insights.png"/>
+   <a href="../assets-essentials/overview.md">
+   <img alt="AEM Assets Essentials" src="../assets-essentials/assets/overview/getting-started.png"/>
    </a>
    <div>
-      <a href="./advanced/asset-insights-launch-tutorial.md">
-      <strong>Using AEM Asset Insights with Launch</strong>
+      <a href="../assets-essentials/overview.md">
+      <strong>Getting started with Assets Essentials</strong>
       </a>
    </div>
    <p>
-      <em>Gain insights into how assets are used</em>
+      <em>Speed up experience creation from concept to design to delivery.</em>
    <p>
 </td>
 <td>
